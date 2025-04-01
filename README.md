@@ -1,3 +1,76 @@
+# CaixaBank Tech - Card Generator Challenge
+
+Este repositorio contiene la solución al **desafío de generador de tarjetas** del programa **CaixaBank Tech**. La aplicación permite a los usuarios crear, gestionar y personalizar tarjetas interactivas, cumpliendo con los requerimientos de validación, estilo y funcionalidades específicas.
+
+## 🔧 Funcionalidades Clave
+
+- ✅ **Gestor global de tarjetas** con React Context API (almacenamiento, eliminación, persistencia con `localStorage`)
+- ✅ **Generación dinámica de números de tarjeta** válidos mediante el algoritmo de **Luhn**
+- ✅ **Cálculo automático de la fecha de vencimiento** en base al número generado
+- ✅ **Obtención del CVV** desde una API externa y procesamiento seguro del mismo
+- ✅ **Diseño interactivo y responsive** (frontal y reverso) con clip-path dinámico
+- ✅ **Animación de volteo de tarjeta** al hacer clic
+- ✅ **Límite de hasta 10 tarjetas activas** y sistema de cooldown de 10 segundos para evitar spam
+- ✅ **Selector de color de fondo** y **selector de fuente tipográfica** personalizable
+
+## 💡 Tecnologías Usadas
+
+- React con Hooks y Context API
+- Material UI (MUI)
+- JavaScript moderno (ES6+)
+- `clip-path` CSS para notch personalizado
+- API externa para códigos CVV
+- UUID para identificadores únicos
+
+## 🚀 Instalación Local
+
+1. Clona este repositorio:
+```bash
+git clone https://github.com/tu-usuario/caixabank-card-generator.git
+```
+
+2. Instala las dependencias:
+```bash
+npm install
+```
+
+3. Ejecuta la aplicación en modo desarrollo:
+```bash
+npm start
+```
+
+## 📸 Captura
+
+![preview](./public/Screenshot_3.jpg)
+![preview](./public/Screenshot_4.jpg)
+
+## 🌟 Autor
+
+Desarrollado por **Marían**, Full Stack Developer en formación.
+
+## ✅ Requisitos Cumplidos
+
+- Tarea 1: ☑
+- Tarea 2: ☑
+- Tarea 3: ☑
+- Tarea 4: ☑
+- Tarea 5: ☑
+- Tarea 6: ☑
+- Tarea 7: ☑
+- Tarea 8: ☑
+- Tarea 9: ☑
+- Tarea 10: ☑
+
+---
+
+© 2025 CaixaBank Tech Challenge
+
+
+
+
+
+
+
 # 💳 Frontend React - Round 3 🏦
 
 ### Category ➡️ Software
